@@ -295,7 +295,7 @@ body {
             try {
                 likeProduct(productId);
             } catch (error) {
-                console.log(error); //buradan hata gelebilir tryı sonra sil
+                console.log(error);
             }
         });
     };
